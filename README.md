@@ -19,7 +19,8 @@ This is a single-screen iOS coffee ordering app design created as part of a UI/U
 
 ### 🎨 Reference Designs
 <div align="center">
-  <img src="./reference-ui8.png" alt="Reference UI8" width="200" style="margin-right: 40px;"/>
+  <img src="./reference-ui8.png" alt="Reference UI8" width="200"/>
+  <div style="width: 40px; display: inline-block;"></div>
   <img src="./reference-dribbble.png" alt="Reference Dribbble" width="200"/>
 </div>
 
@@ -29,13 +30,15 @@ This is a single-screen iOS coffee ordering app design created as part of a UI/U
 
 ### 🌞 English UI
 <div align="center">
-  <img src="./screenshot-light-en.jpeg" alt="Light Mode EN" width="200" style="margin-right: 40px;"/>
+  <img src="./screenshot-light-en.jpeg" alt="Light Mode EN" width="200"/>
+  <div style="width: 40px; display: inline-block;"></div>
   <img src="./screenshot-dark-en.jpeg" alt="Dark Mode EN" width="200"/>
 </div>
 
 ### 🌙 Turkish UI
 <div align="center">
-  <img src="./screenshot-light-tr.jpeg" alt="Light Mode TR" width="200" style="margin-right: 40px;"/>
+  <img src="./screenshot-light-tr.jpeg" alt="Light Mode TR" width="200"/>
+  <div style="width: 40px; display: inline-block;"></div>
   <img src="./screenshot-dark-tr.jpeg" alt="Dark Mode TR" width="200"/>
 </div>
 
