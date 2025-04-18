@@ -14,28 +14,29 @@ This is a single-screen iOS coffee ordering app design created as part of a UI/U
 
 ## 📌 Inspiration Sources
 
-- [UI8 Coffee Mix UI Kit](https://ui8.net/abdulazizalbadawi/products/coffee-mix-ui-kit?rel=timer)  
-  ![](./reference-ui8.png)
-
-- [Dribbble Coffee Shop Design](https://dribbble.com/shots/23467241-Coffee-Shop-App-Design)  
-  ![](./reference-dribbble.png)
+- [UI8 Coffee Mix UI Kit](https://ui8.net/abdulazizalbadawi/products/coffee-mix-ui-kit?rel=timer)
+- [Dribbble Coffee Shop Design](https://dribbble.com/shots/23467241-Coffee-Shop-App-Design)
+### 🎨 Reference Designs
+<div align="center">
+  <img src="./reference-ui8.png" alt="Reference UI8" width="200"/>
+  <img src="./reference-dribbble.png" alt="Reference Dribbble" width="200"/>
+</div>
 
 ---
 
 ## 🖼️ Screenshots
 
-### Light Mode (English)
-![](./screenshot-light-en.jpeg)
+### 🌞 English UI
+<div align="center">
+  <img src="./screenshot-light-en.jpeg" alt="Light Mode EN" width="200"/>
+  <img src="./screenshot-dark-en.jpeg" alt="Dark Mode EN" width="200"/>
+</div>
 
-### Dark Mode (English)
-![](./screenshot-dark-en.jpeg)
-
-### Light Mode (Turkish)
-![](./screenshot-light-tr.jpeg)
-
-### Dark Mode (Turkish)
-![](./screenshot-dark-tr.jpeg)
-
+### 🌙 Turkish UI
+<div align="center">
+  <img src="./screenshot-light-tr.jpeg" alt="Light Mode TR" width="200"/>
+  <img src="./screenshot-dark-tr.jpeg" alt="Dark Mode TR" width="200"/>
+</div>
 ---
 
 ## 🔧 Features
