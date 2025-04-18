@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tJj-BY-5E4">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Homework1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coffee" translatesAutoresizingMaskIntoConstraints="NO" id="ghu-Lh-RtT">
+                                <rect key="frame" x="32" y="119" width="329" height="299"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ghu-Lh-RtT" secondAttribute="height" multiplier="329:299" id="cE1-1X-Yad"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="12"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="White Mocha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J3q-YO-oN5">
+                                <rect key="frame" x="32" y="434" width="129" height="25.333333333333314"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <color key="textColor" name="TextPrimary"/>
+                                <color key="highlightedColor" name="TextPrimary"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bah-r2-nRR">
+                                <rect key="frame" x="284.33333333333331" y="442" width="76.666666666666686" height="43"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="36"/>
+                                <color key="textColor" name="TextPrimary"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3e-FI-3OP">
+                                <rect key="frame" x="31.999999999999996" y="491.33333333333331" width="59.666666666666657" height="21.666666666666686"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" name="TextSecondary"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Espresso, milk and white chocolate syrup offer a smooth and sweet flavor." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eng-8p-NSE">
+                                <rect key="frame" x="32" y="529" width="329" height="40.666666666666629"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="TextSecondary"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sugar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSo-WH-dmS">
+                                <rect key="frame" x="32" y="585.66666666666663" width="51.333333333333343" height="21.666666666666629"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" name="TextSecondary"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Size" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="56G-Np-2J2">
+                                <rect key="frame" x="32" y="673.66666666666663" width="329" height="21.666666666666629"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" name="TextSecondary"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Z0X-ez-zR8">
+                                <rect key="frame" x="32" y="623.33333333333337" width="329" height="34.333333333333371"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vcL-F6-gx6">
+                                        <rect key="frame" x="0.0" y="0.0" width="99" height="34.333333333333336"/>
+                                        <color key="backgroundColor" name="AccentButtonColorSecondary"/>
+                                        <color key="tintColor" name="secondaryColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="No Sugar">
+                                            <color key="baseForegroundColor" name="ButtonTextColor"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="12"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IY5-wz-7kT">
+                                        <rect key="frame" x="115" y="0.0" width="99" height="34.333333333333336"/>
+                                        <color key="backgroundColor" name="AccentButtonColorSecondary"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Regular">
+                                            <color key="baseForegroundColor" name="ButtonTextColor"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="12"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K0W-6P-4SZ">
+                                        <rect key="frame" x="230" y="0.0" width="99" height="34.333333333333336"/>
+                                        <color key="backgroundColor" name="AccentButtonColorSecondary"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Less">
+                                            <color key="baseForegroundColor" name="ButtonTextColor"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="12"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="2Eq-IW-5W6">
+                                <rect key="frame" x="32" y="711.33333333333337" width="329" height="34.333333333333371"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yMf-KI-19c">
+                                        <rect key="frame" x="0.0" y="0.0" width="99" height="34.333333333333336"/>
+                                        <color key="backgroundColor" name="AccentButtonColorSecondary"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Small">
+                                            <color key="baseForegroundColor" name="ButtonTextColor"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="12"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvW-25-52b">
+                                        <rect key="frame" x="115" y="0.0" width="99" height="34.333333333333336"/>
+                                        <color key="backgroundColor" name="AccentButtonColorSecondary"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Medium">
+                                            <color key="baseForegroundColor" name="ButtonTextColor"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="12"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eq0-g7-XhT">
+                                        <rect key="frame" x="230" y="0.0" width="99" height="34.333333333333336"/>
+                                        <color key="backgroundColor" name="AccentButtonColorSecondary"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Large">
+                                            <color key="baseForegroundColor" name="ButtonTextColor"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="12"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drl-Kt-vT0">
+                                <rect key="frame" x="64" y="769.66666666666663" width="265" height="48.666666666666629"/>
+                                <color key="backgroundColor" name="AccentButtonColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="BUY NOW">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
+                                    <color key="baseForegroundColor" name="ButtonTextColor"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="24"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Z0X-ez-zR8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="7DQ-Q1-T2P"/>
+                            <constraint firstItem="J3q-YO-oN5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="8kx-cn-eYz"/>
+                            <constraint firstItem="eSo-WH-dmS" firstAttribute="top" secondItem="eng-8p-NSE" secondAttribute="bottom" constant="16" id="AEc-di-lso"/>
+                            <constraint firstItem="ghu-Lh-RtT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="HNW-5T-y2q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bah-r2-nRR" secondAttribute="trailing" constant="32" id="IkL-eB-w7M"/>
+                            <constraint firstItem="bah-r2-nRR" firstAttribute="top" secondItem="ghu-Lh-RtT" secondAttribute="bottom" constant="24" id="JEx-FJ-px5"/>
+                            <constraint firstItem="Z0X-ez-zR8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="K8X-ra-i2u"/>
+                            <constraint firstItem="56G-Np-2J2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lng-cJ-xmU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="drl-Kt-vT0" secondAttribute="trailing" constant="64" id="Ml8-7H-eGd"/>
+                            <constraint firstItem="eng-8p-NSE" firstAttribute="top" secondItem="v3e-FI-3OP" secondAttribute="bottom" constant="16" id="PDr-yt-D4S"/>
+                            <constraint firstItem="56G-Np-2J2" firstAttribute="top" secondItem="Z0X-ez-zR8" secondAttribute="bottom" constant="16" id="SO8-Ci-Rsy"/>
+                            <constraint firstItem="ghu-Lh-RtT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="Vkp-y2-wgi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ghu-Lh-RtT" secondAttribute="trailing" constant="32" id="WhR-so-s9u"/>
+                            <constraint firstItem="2Eq-IW-5W6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WmP-SU-9ex"/>
+                            <constraint firstItem="56G-Np-2J2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="YYN-rv-SoO"/>
+                            <constraint firstItem="drl-Kt-vT0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="c2Q-p0-0v4"/>
+                            <constraint firstItem="Z0X-ez-zR8" firstAttribute="top" secondItem="eSo-WH-dmS" secondAttribute="bottom" constant="16" id="cNu-8b-Wo7"/>
+                            <constraint firstItem="Z0X-ez-zR8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dP1-t4-gJE"/>
+                            <constraint firstItem="J3q-YO-oN5" firstAttribute="top" secondItem="ghu-Lh-RtT" secondAttribute="bottom" constant="16" id="lLa-Wy-H03"/>
+                            <constraint firstAttribute="trailing" secondItem="eng-8p-NSE" secondAttribute="trailing" constant="32" id="mGE-AR-8NR"/>
+                            <constraint firstItem="v3e-FI-3OP" firstAttribute="top" secondItem="J3q-YO-oN5" secondAttribute="bottom" constant="32" id="mSs-Fl-BEO"/>
+                            <constraint firstItem="drl-Kt-vT0" firstAttribute="top" secondItem="2Eq-IW-5W6" secondAttribute="bottom" constant="24" id="oVH-m2-6CH"/>
+                            <constraint firstItem="2Eq-IW-5W6" firstAttribute="top" secondItem="56G-Np-2J2" secondAttribute="bottom" constant="16" id="pm4-f9-JtK"/>
+                            <constraint firstItem="v3e-FI-3OP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="rYZ-PY-1J0"/>
+                            <constraint firstAttribute="trailing" secondItem="eng-8p-NSE" secondAttribute="trailing" constant="32" id="tr0-ke-XHs"/>
+                            <constraint firstItem="2Eq-IW-5W6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="u2e-oa-esg"/>
+                            <constraint firstItem="eSo-WH-dmS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="vtd-NJ-gsa"/>
+                            <constraint firstItem="eng-8p-NSE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="32" id="x6D-el-LeR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eng-8p-NSE" secondAttribute="trailing" constant="32" id="zc2-Yf-Tdf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4MI-TY-ifa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1907.6335877862596" y="-34.507042253521128"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Fmb-kw-fth">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tJj-BY-5E4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bDX-gY-c5k">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="0MY-XA-K4R"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CQT-9l-0KH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="980.91603053435108" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="coffee" width="180" height="180"/>
+        <namedColor name="AccentButtonColor">
+            <color red="0.48199999332427979" green="0.72500002384185791" blue="0.48199999332427979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="AccentButtonColorSecondary">
+            <color red="0.65100002288818359" green="0.84700000286102295" blue="0.6589999794960022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ButtonTextColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextPrimary">
+            <color red="0.10999999940395355" green="0.10999999940395355" blue="0.11800000071525574" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextSecondary">
+            <color red="0.40000000596046448" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="secondaryColor">
+            <color red="0.6589999794960022" green="0.76499998569488525" blue="0.65100002288818359" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

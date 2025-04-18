@@ -1,0 +1,60 @@
+
+/* Class = "UILabel"; text = "Size"; ObjectID = "56G-Np-2J2"; */
+"56G-Np-2J2.text" = "Boyut";
+
+/* Class = "UIButton"; configuration.title = "Regular"; ObjectID = "IY5-wz-7kT"; */
+"IY5-wz-7kT.configuration.title" = "Normal";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "IY5-wz-7kT"; */
+"IY5-wz-7kT.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "White Mocha"; ObjectID = "J3q-YO-oN5"; */
+"J3q-YO-oN5.text" = "White Mocha";
+
+/* Class = "UIButton"; configuration.title = "Less"; ObjectID = "K0W-6P-4SZ"; */
+"K0W-6P-4SZ.configuration.title" = "Az";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "K0W-6P-4SZ"; */
+"K0W-6P-4SZ.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "$ 30"; ObjectID = "bah-r2-nRR"; */
+"bah-r2-nRR.text" = "240 ₺";
+
+/* Class = "UIButton"; configuration.title = "BUY NOW"; ObjectID = "drl-Kt-vT0"; */
+"drl-Kt-vT0.configuration.title" = "SATIN AL";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "drl-Kt-vT0"; */
+"drl-Kt-vT0.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Sugar"; ObjectID = "eSo-WH-dmS"; */
+"eSo-WH-dmS.text" = "Şeker";
+
+/* Class = "UILabel"; text = "Espresso, milk and white chocolate syrup offer a smooth and sweet flavor."; ObjectID = "eng-8p-NSE"; */
+"eng-8p-NSE.text" = "Espresso, süt ve beyaz çikolata şurubu ile yumuşak ve tatlı bir lezzet sunar.";
+
+/* Class = "UIButton"; configuration.title = "Large"; ObjectID = "eq0-g7-XhT"; */
+"eq0-g7-XhT.configuration.title" = "Büyük";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "eq0-g7-XhT"; */
+"eq0-g7-XhT.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Medium"; ObjectID = "gvW-25-52b"; */
+"gvW-25-52b.configuration.title" = "Orta";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "gvW-25-52b"; */
+"gvW-25-52b.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Details"; ObjectID = "v3e-FI-3OP"; */
+"v3e-FI-3OP.text" = "Detay";
+
+/* Class = "UIButton"; configuration.title = "No Sugar"; ObjectID = "vcL-F6-gx6"; */
+"vcL-F6-gx6.configuration.title" = "Şekersiz";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vcL-F6-gx6"; */
+"vcL-F6-gx6.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Small"; ObjectID = "yMf-KI-19c"; */
+"yMf-KI-19c.configuration.title" = "Küçük";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "yMf-KI-19c"; */
+"yMf-KI-19c.normalTitle" = "Button";
